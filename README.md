@@ -1,2 +1,2 @@
-# cypress-cucumber-cheap-flights
-To test Cheap Flights Website
+# cypress-cucumber-chris-ryan-website-test
+To test Chris Ryan PhD.'s Website
