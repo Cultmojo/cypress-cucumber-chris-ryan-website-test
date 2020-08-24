@@ -11,7 +11,7 @@
         "nonGlobalStepDefinitions": true
     },
     "scripts": {
-        "smokeTest": "npx cypress run --browser chrome --reporter mochawesome --spec \"cypress/integration/cucumber/<feature>\"",
+        "podcast": "npx cypress run --browser chrome --reporter mochawesome --spec \"cypress/integration/cucumber/podcast.feature\"",
         "merge": "npx mochawesome-merge --reportDir cypress/report/mocha > cypress/merged-reports/mergedReport",
         "cleanup-reports": "rm -fr cypress/report/mocha",
         "cleanup-merge": "rm -fr cypress/merged-reports/mergedReport",
